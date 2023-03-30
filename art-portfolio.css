@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:#010a19;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    
+   
+    margin-bottom: 1vh;
+}
+h1{
+    font-size: 50px;
+ color: white;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 2vh;
+
+}
+.col{
+    height: 80vh;
+    
+}
+
+
+#mina{
+    background: url("../res/images/mina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#old-woman{
+    height: 80vh; 
+    object-fit: cover;
+    object-position: center;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 2fr;
+    gap: 2vh;
+    margin-top: 6vh;
+    margin-left: 6vh;
+    
+}
+#indian{
+   height: 80vh;
+    background: url("../res/images/indian1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#moraa >img{
+    
+   height: 130vh;
+   object-fit: cover;
+   object-position: center;
+   image-resolution: 500dpi;
+   
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 2fr;
+    gap: 2vh;
+    margin-top: 4vh;
+    margin-left: 6vh;
+    
+}
+#young-lady{
+    height: 100vh;
+    background: url("../res/images/young-lady.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#young-lad{
+    height: 100vh;
+    margin-top: 30vh;
+    
+    background: url("../res/images/mango.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
