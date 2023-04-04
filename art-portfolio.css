@@ -10,8 +10,6 @@
     align-items: center;
     justify-content: flex-start;
     height: 20vh;
-    
-   
     margin-bottom: 1vh;
 }
 #imgLogo{
@@ -95,4 +93,62 @@ h1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+@media screen and (max-width: 760px) {
+   
+    #header{
+        height: 10vh;
+        margin-bottom: 1vh;
+    }
+    h1{
+        font-size: 37px;
+    }
+    #imgLogo{
+        display: none;
+    }
+    #old-woman{
+        height: 30vh; 
+        margin-right: 1vh;
+    }
+    #moraa >img{
+        height: 30vh;
+     }
+     #young-lady{
+        height: 30vh;
+        
+    }
+    #mina{
+      margin-left: 1vh;
+    }
+    .col{
+        height: 30vh;
+    }
+    .row{
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 2vh;
+    }
+    .row1{
+        display: grid;
+        grid-template-rows: 1fr;
+        margin-top: 1vh;
+        margin-left: 1vh;
+        gap: 1vh;
+    }
+    .row2{
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 1vh;
+        margin-top: 1vh;
+        margin-left: 1vh;
+        
+    }
+    #indian{
+        height: 30vh;
+     }
+     #young-lad{
+        height: 30vh;
+        margin-top: 1vh;
+        margin-right: 1vh;
+    }
 }
