@@ -2,12 +2,16 @@
 --dark-navy-blue : #09192f;
 --luminous-green: #64FFDA;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     scroll-behavior:smooth;
-    
 }
-
-
+body,html{
+    overflow-x: hidden;
+}
 /* introduction section */
 
 #tooglercolor{
