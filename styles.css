@@ -13,7 +13,32 @@ body,html{
     overflow-x: hidden;
 }
 /* introduction section */
-
+#social-link-linkedin{
+    position:fixed;
+    margin-top: 65vh;
+    margin-left: 1vh;
+    width: 32px;
+    height: 40px;
+    transform: rotate(360deg);
+}
+#social-link-github{
+    position:fixed;
+    margin-left: 1vh;
+    margin-top: 40vh;
+    width: 32px;
+    height: 40px;
+    transform: rotate(360deg);
+}
+#social-link-separator{
+    position:fixed;
+    width: 4%;
+    height: 10%;
+    margin-top: 50vh;
+    margin-bottom: 3vh;
+    margin-left: none;
+    transform: rotate(90deg);
+    
+}
 #tooglercolor{
     background-color:white;
 }
@@ -36,8 +61,9 @@ h1,h3,h5,h6{
     
 }
 #lefty{
-    background-color: var(--dark-navy-blue)
-    ;
+    
+    background-color: var(--dark-navy-blue);
+    
 }
 #righty{
     background-color: var(--dark-navy-blue);
@@ -320,6 +346,9 @@ margin-left: 15%;
   }
 
 @media screen and (max-width:760px) {
+    .social-links{
+        display: none;
+    }
     
     h1{
         font-size: 60px;
