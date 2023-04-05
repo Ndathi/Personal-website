@@ -33,12 +33,13 @@ h1{
 }
 
 
-#mina{
-    background: url("../res/images/mina.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+#mina >img{
+    height:80vh;
+    object-fit: cover;
+    object-position: center;
+    image-resolution: 500dpi;
+    
+ }
 
 #old-woman{
     height: 80vh; 
@@ -108,7 +109,12 @@ h1{
     }
     #old-woman{
         height: 30vh; 
-        margin-right: 1vh;
+        margin-left: 35vw;
+    }
+    .row{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 1vh;
     }
     #moraa >img{
         height: 30vh;
@@ -117,20 +123,17 @@ h1{
         height: 30vh;
         
     }
-    #mina{
+    #mina > img{
       margin-left: 1vh;
+      height: 30vh;
     }
     .col{
         height: 30vh;
     }
-    .row{
-        display: grid;
-        grid-template-rows: 1fr;
-        gap: 2vh;
-    }
+    
     .row1{
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
         margin-top: 1vh;
         margin-left: 1vh;
         gap: 1vh;
@@ -150,5 +153,8 @@ h1{
         height: 30vh;
         margin-top: 1vh;
         margin-right: 1vh;
+    }
+    #emptydiv{
+        display: none;
     }
 }
