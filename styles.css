@@ -97,7 +97,11 @@ h2{
     color:#8892B0 ;
 }
 #Konza-Name{
-    color: var(--luminous-green) ;
+    color: var(--luminous-green);
+}
+.Highlight{
+    display: inline;
+color: var(--luminous-green);
 }
 h4{
 font-size: 19px;
@@ -139,6 +143,7 @@ color:white;
     
 }
 #about-me-text{
+    display: inline;
     font-size: 17px;
     color: #CCD6F6;
     margin-top: 4%;
