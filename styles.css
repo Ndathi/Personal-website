@@ -62,7 +62,8 @@ h1,h3,h5,h6{
 }
 #lefty{
     
-    background-color: var(--dark-navy-blue);
+    background-color:var(--dark-navy-blue);
+    width: 50px;
     
 }
 #righty{
@@ -370,6 +371,7 @@ margin-left: 15%;
     #salutation{
 
         margin-top: 3%;
+      
         
     }
     .kidude{
