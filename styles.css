@@ -63,7 +63,7 @@ h1,h3,h5,h6{
 #lefty{
     
     background-color:var(--dark-navy-blue);
-    width: 50px;
+    padding-right: 50px;
     
 }
 #righty{
